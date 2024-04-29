@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    background: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 77px 
+}
+.banner{
+    background: url(../image/food\ panda\ image.jpeg);
+    width: 100%;
+    height: 500px;
+}  
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 100px;
+}   
+.news{
+    background:linear-gradient(to right,yellow,black,green);
+    width: 100%;
+    height: 50px;
+}
+.news marquee{
+    color: white;
+    font-size: 25px;
+    /*line-height:52px;*/
+    padding-top: 13px;
+}
+.about{
+    padding: 150px 200px;
+    text-align: center;
+}
+.about h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 3px #ff2b85;
+
+}
+.about button{
+    width: 200px;
+    height: 40px;
+    background: #ff2b85;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.about button:hover{
+    background: linear-gradient(red,yellow);
+}
+.press{
+    background: url('../image/about-foodpanda.jpeg\ about.jpeg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team{
+    background: url('../image/up\ ayushman\ bharat.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact{
+    background:#ff2b85 ;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 80px 12px 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 4.5rem;
+    background:  #231F20;
+ 
+ }
+ .footer-content h4{
+    color: #fff;
+    margin-bottom:1.5rem ;
+    font-size: 20px;
+    font-family: cursive;
+ }
+ .footer-content li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+    font-family: cursive;
+    text-decoration: none;
+ }
+ .footer-content li a:hover{
+    transform: translatey(-3px) translatex(-5px);
+    color: #fff;
+ 
+ }
+ .footer-content p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+    font-family: cursive;
+ }

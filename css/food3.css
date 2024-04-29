@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fe5c90;
+    padding: 0 10px;
+}
+
+.menu button {
+    border: #fe5c90;
+    background: linear-gradient(to right, red, purple);
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 6px;
+    padding: 9px 35px;
+}
+
+.menu button:hover {
+    background: linear-gradient(to right, red, black);
+}
+
+.banner {
+    background: url(../image/food\ panda\ image.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h2 {
+    text-align: center;
+    background: #fe5c90;
+    margin: auto;
+    width: 54%;
+    color: white;
+    position: relative;
+    top: 40%;
+    font-size: 45px;
+    font-family: cursive;
+}
+
+.banner h4 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 181px;
+
+}
+
+.search {
+    padding-left: 267px;
+    padding-top: 18px;
+    margin-left: 257px;
+}
+
+.search input {
+    width: 499px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.about {
+    padding: 140px 200px;
+    text-align: center;
+    
+}
+
+.about h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 6px #976b6b;
+}
+.about p{
+    font-family:cursive ;
+    word-spacing:2px ;
+    letter-spacing:0.5px ;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+.about a{
+    background: #ff5592;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.about a:hover{
+    background: linear-gradient(to right,orange,pink);
+}
+.press {
+    background: url(../image/top_schools_of_Bangalore.png\ best\ school\ image.png);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.press {
+    padding: 140px 200px;
+    text-align: center;
+    
+}
+
+.press h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 6px #976b6b;
+}
+.press p{
+    font-family:cursive ;
+    word-spacing:2px ;
+    letter-spacing:0.5px ;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+.press a{
+    background: #ff5592;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.press a:hover{
+    background: linear-gradient(to right,orange,pink);
+}
+
+.team {
+    background: url(../image/bestschool\ image.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team {
+    padding: 140px 200px;
+    text-align: center;
+    
+}
+
+.team h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 6px #976b6b;
+}
+.team p{
+    font-family:cursive ;
+    word-spacing:2px ;
+    letter-spacing:0.5px ;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+.team a{
+    background: #ff5592;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.team a:hover{
+    background: linear-gradient(to right,orange,pink);
+}
+
+.contact {
+    background: #ff5592;
+    width: 100%;
+    height: 450px;
+    
+}
+.contact {
+    padding: 140px 200px;
+    text-align: center;
+    
+}
+
+.contact h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 6px #976b6b;
+}
+.contact p{
+    font-family:cursive ;
+    word-spacing:2px ;
+    letter-spacing:0.5px ;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+.contact a{
+    background: #ff5592;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.contact a:hover{
+    background: linear-gradient(to right,orange,pink);
+}
+
+footer{
+    background: black;
+    width: 100%;
+    height: 350px;
+    
+}

@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    position: fixed;
+    top: 0;
+    z-index: 1 ;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fe5c90;
+    padding: 0 10px;
+}
+
+.menu button {
+    padding: 9px 35px;
+    border: #fe5c90;
+    background: linear-gradient(to right, yellow, blue);
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    font-family: cursive;
+    margin-left: 30px;
+}
+
+.menu button:hover {
+    background: linear-gradient(to right, red, black);
+}
+
+.banner {
+    background: url(../image/food\ panda\ image.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    background: blue;
+    margin: auto;
+    width: 46%;
+    color: #f03b77;
+    position: relative;
+    top: 54%;
+    font-size: 45px;
+    font-family: cursive;
+}
+
+.banner h4 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    padding-top: 230px;
+    text-shadow: 4px5px6px #f03b77;
+}
+
+.search {
+    padding-left: 267px;
+    padding-top: 18px;
+    margin-left: 257px;
+}
+
+.search input {
+    width: 499px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+    padding: 0 18px;
+}
+
+.about {
+    padding: 140px 200px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 6px #976b6b;
+    letter-spacing: 2px;
+}
+.about p{
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    font-family: serif;
+    word-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.about a{
+    background: #ff5592;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.about a:hover{
+    background: linear-gradient(to right,yellow,red);
+}
+
+.press{
+    background: url(../image/up\ ayushman\ bharat.jpg);
+    width: 100%;
+    height: 450px;
+    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.press {
+    padding: 140px 200px;
+    text-align: center;
+}
+
+.press h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 6px #976b6b;
+    letter-spacing: 2px;
+}
+.press p{
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    font-family: serif;
+    word-spacing: 3px;
+    margin-bottom: 25px;
+}
+.press a{
+    background: #ff5592;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.press a:hover{
+    background: linear-gradient(to right,yellow,red);
+}
+
+
+.team{
+    background: url(../image/mumbai\ best\ school\ img.png);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team {
+    padding: 140px 200px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 6px #976b6b;
+    letter-spacing: 2px;
+}
+.team p{
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    font-family: serif;
+    word-spacing: 3px;
+    margin-bottom: 25px;
+}
+.team a{
+    background: #ff5592;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.team a:hover{
+    background: linear-gradient(to right,yellow,red);
+}
+.contact {
+    background: #ff2b85;
+    width: 100%;
+    height: 432px;
+}
+
+.contact h3{
+    text-decoration: underline;
+}
+
+footer{
+    background: #1a242f;
+    color: white;
+    padding: 134px 5% 103px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+
+}
+
+footer .img{
+    background: url(https://www.foodpanda.com/wp-content/uploads/2023/06/foodpanda_logo_2023.svg);
+    width: 50px;
+    height: 50px;
+}
+
+.footer-content {
+    line-height: 36px;
+    font-size: 16px;
+    color: white;
+    margin: -101px 17px;
+
+}
+.footer-content h4{
+    font-size: 22px;
+    padding-bottom: 52px;
+    margin-top: 39px;
+    color: #fff;
+    line-height: 0;
+
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    font-weight: 400;
+    /* transition: all .40s ease; */
+    text-decoration: none;
+}
+
+.footer-content li a:hover {
+    transition: color .4s ease, transform .4s ease; /* Added transform property */
+    color: #fff;
+    transform: translateY(-3px) translateX(-3px); /* Added transform property */
+}

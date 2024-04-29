@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background: #ff8800;
+    display: flex;
+    padding: 0px 117px;
+    align-items: center;
+    position: fixed;
+    gap: 19px;
+}
+.menu {
+    height: 60px;
+    width: 258px;
+    background: #e67a00;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 19px;
+}
+.menu a{
+    
+}
